@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Copywriter"
+  short_description: "Draft X posts with marketing and algorithm checks"
+  default_prompt: "Use $x-copywriter to draft an X thread for my product launch."
