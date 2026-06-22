@@ -176,6 +176,7 @@ For English X copy:
 - Keep claims smaller and sharper.
 - Replace summary endings with a concrete final line.
 - Avoid formulaic "not X, but Y" unless the contrast is genuinely useful.
+- **Never use "X" as a placeholder variable when the platform is X.** Phrases like "it's not just X, it's Y" collide with the platform name and erase it from the post. Use "A/B", "this/that", or concrete nouns instead, so every "X" in the copy reads as the platform.
 - Use contractions only if they fit the user's voice.
 - Do not add emojis by default.
 
