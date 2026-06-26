@@ -9,6 +9,7 @@ The skill applies marketing strategy, audience psychology, evidence discipline, 
 - **Writes for the right action, not just "engagement."** Maps copy to the actions X actually rewards (reply, quote, profile-click-then-stay) and away from the ones it taxes (mute, block, report).
 - **Hook tournament.** Drafts several hooks across distinct mechanisms, scores them on stop / stake / specificity / truth, and ships the strongest — never the first catchy-but-vague line.
 - **Critic gate.** Every draft passes a skeptical pre-delivery review (hook, one idea, proof, action fit, voice); weak dimensions are rewritten before you see the copy.
+- **Topic scoring and A/B variants.** For higher-stakes work, it scores topic candidates, tests two distinct angles, critiques both, and selects the stronger final.
 - **Voice fingerprint.** Matches your real voice from samples instead of flattening everything into generic founder-speak.
 - **Anti-AI polish tuned for X.** Inverts long-form humanizer rules — keeps fragments and punchy one-liners, drops article-style scaffolding, and holds near-zero tolerance for AI tells in 280 characters.
 - **Genuinely language-neutral.** Output matches the user's language by default. Chinese and English appear as worked examples of a universal method, not a privileged pair.
@@ -23,6 +24,7 @@ references/
   x-copy-frameworks.md            # hooks, awareness calibration, voice fingerprint, threads, offers, critic gate
   hot-repo-patterns.md            # writing/workflow patterns to borrow from popular projects
   x-open-source-ecosystem.md      # X tooling, data access, and automation safety limits
+  topic-scoring-and-variants.md   # topic scoring, A/B tests, critic scores, optional JSON output
   anti-ai-polish.md               # final-pass humanization, multilingual
   language-adaptation.md          # writing/adapting across languages
   examples.md                     # calibrated examples, including the internal tournament + critic-gate flow

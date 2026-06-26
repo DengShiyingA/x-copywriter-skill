@@ -17,6 +17,7 @@ Create original X-native copy in the user's language. Use public marketing and a
 - Load [references/x-open-source-ecosystem.md](references/x-open-source-ecosystem.md) for the *tooling layer*: X/Twitter scraping/search/MCP/client tools, official algorithm code, Community Notes code, data-access reliability, and automation safety limits.
 - Load [references/anti-ai-polish.md](references/anti-ai-polish.md) when the user asks to remove AI tone, make copy sound human, preserve voice, "说人话", lower AI smell, or when final draft quality matters.
 - Load [references/language-adaptation.md](references/language-adaptation.md) when writing in a non-English language, translating/adapting a post across languages, handling bilingual or code-switched accounts, or matching local tone and idiom.
+- Load [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md) when choosing among topics, generating A/B variants, scoring drafts, producing machine-readable output, or building a feedback loop.
 - Load [references/examples.md](references/examples.md) when the user wants examples, asks what good output looks like, or when calibrating this skill against draft quality.
 
 ## Task Router
@@ -34,6 +35,7 @@ Classify the request first:
 | Repurpose long-form content | Extract thesis, proof, examples, and quotable moments before writing X-native posts. |
 | Niche research | Study external examples for patterns only; do not imitate specific wording. |
 | Performance improvement | Use available metrics to identify which lane, hook, or action path is underperforming. |
+| Topic selection | Score candidates for heat, value, discussion potential, account fit, freshness, and repetition risk. |
 | Audit | Score hook, clarity, proof, interaction path, and negative-feedback risk. |
 
 ## Strategy Card
@@ -87,6 +89,8 @@ Never copy distinctive phrasing, anecdotes, stats, jokes, or personal claims fro
 8. Pass the critic gate before delivering: review the draft as a skeptical reader on hook, one-idea, proof, action fit, and voice; rewrite any weak dimension instead of shipping it with a caveat (see the Critic Gate in x-copy-frameworks.md).
 9. Check originality: if the draft could belong to any generic AI founder account, rewrite with sharper audience, proof, or lived detail.
 10. Deliver ready-to-post copy first, then brief rationale if useful.
+
+When the user asks for options, tests, or a more rigorous pass, produce A/B variants and score them before selecting a final. Use [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md).
 
 ## Output Contracts
 
@@ -158,6 +162,50 @@ Avoid:
 
 Draft:
 [fresh X copy]
+```
+
+### A/B Variants
+
+Use when the user asks for options, the topic is high-stakes, or the first draft direction is ambiguous.
+
+```text
+Variant A:
+[more direct / higher contrast / stronger hook]
+
+Variant B:
+[more structured / more evidence-led / lower risk]
+
+Critic:
+- A: n/10 - [one concrete reason]
+- B: n/10 - [one concrete reason]
+
+Selected:
+[A or B] - [why]
+
+Final:
+[ready-to-post copy]
+```
+
+### Machine-Readable Block
+
+Only include this when the user asks for automation, logging, scoring output, or downstream processing.
+
+```json
+X_COPYWRITER_JSON
+{
+  "schema_version": "x_copywriter.create.v1",
+  "language": "...",
+  "topic": "...",
+  "post_type": "single|thread|reply|quote|plan|audit",
+  "intended_action": "reply|repost|quote|follow|click|bookmark",
+  "variants": [
+    {"id": "A", "score_0_10": 0, "text": "..."},
+    {"id": "B", "score_0_10": 0, "text": "..."}
+  ],
+  "selected": "A|B",
+  "risk_flags": ["..."],
+  "notes": ["..."]
+}
 ```
 
 ### Audit
