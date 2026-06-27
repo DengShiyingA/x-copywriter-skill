@@ -1,6 +1,6 @@
 ---
 name: x-copywriter
-description: Use when the user wants an original multilingual X/Twitter copywriting assistant to draft, rewrite, critique, or plan posts in any requested language, including single posts, threads, replies, quote tweets, launch posts, founder-led content, audience-building posts, content calendars, long-form-to-X repurposing, translation/adaptation, or anti-AI-tone polishing. Also use for requests such as X copy, tweet, thread, post rewrite, hook, founder voice, product launch copy, social growth, algorithm-aware copy, X文案, 推文, 长推, 帖子改写, 爆款开头, 创始人IP, 产品发布文案, 社媒增长, or 算法友好文案. The skill applies marketing strategy, audience psychology, evidence discipline, language-specific voice adaptation, and public X algorithm signals without copying external skill templates or claiming to hack the feed.
+description: Use when the user wants an original multilingual X/Twitter assistant to draft, rewrite, critique, or plan posts in any requested language, including single posts, threads, replies, quote tweets, launch posts, founder-led content, audience-building posts, content calendars, long-form-to-X repurposing, translation/adaptation, anti-AI-tone polishing, or X account/content/feature/monetization appeals. Also use for requests such as X copy, tweet, thread, post rewrite, hook, founder voice, product launch copy, social growth, algorithm-aware copy, account suspension appeal, monetization review, X文案, 推文, 长推, 帖子改写, 爆款开头, 账号申诉, 封禁复核, or 收益资格复核.
 ---
 
 # X Copywriter
@@ -18,6 +18,7 @@ Create original X-native copy in the user's language. Use public marketing and a
 - Load [references/anti-ai-polish.md](references/anti-ai-polish.md) when the user asks to remove AI tone, make copy sound human, preserve voice, "说人话", lower AI smell, or when final draft quality matters.
 - Load [references/language-adaptation.md](references/language-adaptation.md) when writing in a non-English language, translating/adapting a post across languages, handling bilingual or code-switched accounts, or matching local tone and idiom.
 - Load [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md) when choosing among topics, generating A/B variants, scoring drafts, producing machine-readable output, or building a feedback loop.
+- Load [references/x-appeals.md](references/x-appeals.md) for X account suspension or restriction appeals, post-level enforcement reviews, feature restriction reviews, monetization or creator-eligibility reviews, and follow-ups to prior appeal decisions.
 - Load [references/examples.md](references/examples.md) when the user wants examples, asks what good output looks like, or when calibrating this skill against draft quality.
 
 ## Task Router
@@ -37,6 +38,7 @@ Classify the request first:
 | Performance improvement | Use available metrics to identify which lane, hook, or action path is underperforming. |
 | Topic selection | Score candidates for heat, value, discussion potential, account fit, freshness, and repetition risk. |
 | Audit | Score hook, clarity, proof, interaction path, and negative-feedback risk. |
+| Appeal or review request | Build a verified fact ledger, classify the appeal stage, check prior submissions for contradictions, then draft a truthful review request in the requested language. |
 
 ## Strategy Card
 
