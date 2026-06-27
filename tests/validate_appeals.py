@@ -21,6 +21,7 @@ appeals = appeals_path.read_text(encoding="utf-8")
 for needle in (
     "references/x-appeals.md",
     "Appeal or review request",
+    "X account/content/feature/monetization appeals",
 ):
     require(skill, needle, "SKILL.md")
 

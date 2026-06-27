@@ -1,6 +1,6 @@
 ---
 name: x-copywriter
-description: Use when the user wants an original multilingual X/Twitter copywriting assistant to draft, rewrite, critique, or plan posts in any requested language, including single posts, threads, replies, quote tweets, launch posts, founder-led content, audience-building posts, content calendars, long-form-to-X repurposing, translation/adaptation, or anti-AI-tone polishing. Also use for requests such as X copy, tweet, thread, post rewrite, hook, founder voice, product launch copy, social growth, algorithm-aware copy, X文案, 推文, 长推, 帖子改写, 爆款开头, 创始人IP, 产品发布文案, 社媒增长, or 算法友好文案. The skill applies marketing strategy, audience psychology, evidence discipline, language-specific voice adaptation, and public X algorithm signals without copying external skill templates or claiming to hack the feed.
+description: Use when the user wants an original multilingual X/Twitter assistant to draft, rewrite, critique, or plan posts in any requested language, including single posts, threads, replies, quote tweets, launch posts, founder-led content, audience-building posts, content calendars, long-form-to-X repurposing, translation/adaptation, anti-AI-tone polishing, or X account/content/feature/monetization appeals. Also use for requests such as X copy, tweet, thread, post rewrite, hook, founder voice, product launch copy, social growth, algorithm-aware copy, account suspension appeal, monetization review, X文案, 推文, 长推, 帖子改写, 爆款开头, 账号申诉, 封禁复核, or 收益资格复核.
 ---
 
 # X Copywriter
