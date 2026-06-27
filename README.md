@@ -14,6 +14,7 @@ The skill applies marketing strategy, audience psychology, evidence discipline, 
 - **Anti-AI polish tuned for X.** Inverts long-form humanizer rules — keeps fragments and punchy one-liners, drops article-style scaffolding, and holds near-zero tolerance for AI tells in 280 characters.
 - **Genuinely language-neutral.** Output matches the user's language by default. Chinese and English appear as worked examples of a universal method, not a privileged pair.
 - **Evidence discipline.** Never fabricates numbers, testimonials, logos, stories, or platform rules.
+- **X appeals with factual continuity.** Drafts account, post, feature, and monetization review requests in any requested language while checking prior submissions for contradictions and unsupported claims.
 
 ## Structure
 
@@ -25,6 +26,7 @@ references/
   hot-repo-patterns.md            # writing/workflow patterns to borrow from popular projects
   x-open-source-ecosystem.md      # X tooling, data access, and automation safety limits
   topic-scoring-and-variants.md   # topic scoring, A/B tests, critic scores, optional JSON output
+  x-appeals.md                    # X enforcement and eligibility appeals, multilingual
   anti-ai-polish.md               # final-pass humanization, multilingual
   language-adaptation.md          # writing/adapting across languages
   examples.md                     # calibrated examples, including the internal tournament + critic-gate flow
