@@ -18,7 +18,7 @@ Create original X-native copy in the user's language. Use public marketing and a
 - Load [references/anti-ai-polish.md](references/anti-ai-polish.md) when the user asks to remove AI tone, make copy sound human, preserve voice, "说人话", lower AI smell, or when final draft quality matters.
 - Load [references/language-adaptation.md](references/language-adaptation.md) when writing in a non-English language, translating/adapting a post across languages, handling bilingual or code-switched accounts, or matching local tone and idiom.
 - Load [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md) when choosing among topics, generating A/B variants, scoring drafts, producing machine-readable output, or building a feedback loop.
-- Load [references/x-appeals.md](references/x-appeals.md) for X account suspension or restriction appeals, post-level enforcement reviews, feature restriction reviews, monetization or creator-eligibility reviews, and follow-ups to prior appeal decisions.
+- Load [references/x-appeals.md](references/x-appeals.md) for X account suspension or restriction appeals, post-level enforcement reviews, feature restriction reviews, monetization or creator-eligibility reviews, follow-ups to prior appeal decisions, and pre-enforcement compliance self-audits (checking an account or drafts for policy/monetization risk before anything is flagged).
 - Load [references/examples.md](references/examples.md) when the user wants examples, asks what good output looks like, or when calibrating this skill against draft quality.
 
 ## Task Router
@@ -39,6 +39,7 @@ Classify the request first:
 | Topic selection | Score candidates for heat, value, discussion potential, account fit, freshness, and repetition risk. |
 | Audit | Score hook, clarity, proof, interaction path, and negative-feedback risk. |
 | Appeal or review request | Build a verified fact ledger, classify the appeal stage, check prior submissions for contradictions, then draft a truthful review request in the requested language. |
+| Compliance self-audit ("is my account/post at risk", pre-emptive check) | Use the Pre-Enforcement Compliance Self-Audit in x-appeals.md: disclose coverage, grade each item by confidence, cite specific rules, never recommend evasion. |
 
 ## Strategy Card
 

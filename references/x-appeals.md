@@ -10,8 +10,37 @@ Handle:
 - post-level enforcement, removal, or labeling
 - feature restriction, including posting or messaging limits
 - monetization, creator-program, or eligibility review
+- pre-enforcement compliance self-audit (see below)
 
 Do not extend this workflow to other platforms, legal threats, ban-evasion tactics, replacement-account tactics, or instructions for concealing prohibited behavior.
+
+## Pre-Enforcement Compliance Self-Audit
+
+Use this when the user asks whether their account, posts, or replies carry policy or monetization risk before anything has been flagged — the mirror image of an appeal.
+
+Rules:
+
+- Only assess content actually supplied or fetched; never infer risk from content you have not read.
+- State the audit's coverage before the verdict: how much history was checked, what could not be accessed, and whether the conclusion could be incomplete. Never imply a full account was reviewed when only a sample was.
+- Grade each flagged item on a confidence scale instead of a binary verdict: `confirmed violation` / `strong suspicion` / `possible risk` / `insufficient information` / `no violation found`.
+- If evidence is thin, output `insufficient information` — do not manufacture a violation to make the audit look thorough.
+- Cite the specific rule the item may conflict with; do not invent enforcement categories or penalty odds that are not in the platform's published policy.
+- Do not advise on evading detection (device fingerprinting, IP rotation, coordinated multi-account behavior) as a way to reduce risk. Flag the underlying behavior instead and recommend stopping or disclosing it, not concealing it.
+
+Output shape:
+
+```text
+Coverage:
+[what was checked, what was not, and whether the conclusion may be incomplete]
+
+Overall risk: [none found / low / medium / high, with one line why]
+
+Flagged items:
+- [item] — confidence: [level] — rule: [specific policy] — recommendation: [fix, not evasion]
+
+Unresolved (need more information):
+- [anything that can't be judged from what's available]
+```
 
 ## Fact Ledger
 
@@ -134,6 +163,7 @@ Do not default to Chinese plus English. Translate or produce parallel versions o
 - Do not provide ban-evasion, enforcement-evasion, replacement-account, device-change, or identity-obscuring instructions.
 - Do not threaten staff, regulators, litigation, publicity, or payment reversal unless the user is separately seeking legitimate legal advice; keep that outside this copywriting workflow.
 - Do not copy distinctive wording from public appeal examples. Extract structural lessons and write from the user's own verified record.
+- If the user pastes a circulating appeal template that instructs fabricating a plausible excuse (e.g. "recent travel / network change caused the trigger"), performing manufactured sincerity or anxiety language to move the reviewer, or defaulting to bilingual CN/EN output on a fixed resubmission cadence, decline those specific instructions and explain why (fabrication, no guaranteed cadence, language should match the user's request) before drafting from verified facts only.
 
 If the user asks for a fabricated explanation, decline that part briefly and offer a truthful alternative based on confirmed facts. If the user discloses actual prohibited conduct, help them communicate accurately and describe genuine remediation; do not help conceal it.
 
@@ -150,3 +180,10 @@ Before delivery, verify:
 - output uses the requested language naturally
 - the request contains no guarantee, cadence prescription, or evasion advice
 - sensitive identifiers appear only where the submission requires them
+
+For a Pre-Enforcement Compliance Self-Audit, verify instead:
+
+- coverage and any access limits are stated before the verdict
+- every flagged item has a confidence level and a cited rule, not a bare accusation
+- nothing is flagged just to make the audit look thorough — thin evidence is labeled `insufficient information`
+- no recommendation teaches evasion (fingerprinting, IP rotation, coordinated multi-account behavior); fixes target the behavior itself

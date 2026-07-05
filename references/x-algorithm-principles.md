@@ -107,6 +107,7 @@ The scorer predicts a fixed set of actions, each with its own weight. Design eac
 | Click | `P(click)` | Native value first, link second. |
 | Dwell | `P(dwell)` | Readable density that rewards stopping (see Dwell above). |
 | Media expand / view | `P(photo_expand)`, `P(video_view)` | Media that is worth opening for proof or demo, not decoration. |
+| Bookmark | not named in the public repo, but the live Posts API exposes `bookmark_count` as its own metric, separate from `like_count`/`repost_count` | Reference-shaped copy the reader wants to find later: numbered breakdowns, frameworks, concrete before/after figures. Live sampling (2026-07) on high-reach accounts shows posts with a numbered comparison or a specific figure routinely pull bookmark counts several times higher than same-account posts that are pure observation/humor, even at similar or lower like counts. |
 
 ### 4. Negative Feedback
 

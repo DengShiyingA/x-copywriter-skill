@@ -63,6 +63,7 @@ The safe write pattern that recurs across maintained tools is **draft-then-publi
 - **Unofficial scrapers break and carry ban risk.** They depend on login cookies or account pools and stop working when the platform changes endpoints. Never make one scraper a hard requirement, and never use account-pool/proxy rotation to evade limits.
 - **Tools get taken down.** Popular automation clients have been pulled under platform pressure; abandoned forks are a liability. Treat star counts and tool availability as volatile and cite patterns, not pinned tools.
 - **Prefer ToS-clean read paths** (official API search, sanctioned read-only research tools) over scraping when you only need to study recent discourse.
+- **Official X API MCP access, when available in-session, has real tier limits.** Confirmed by direct use: full-archive/recent post search (`search_posts_all`-style endpoints) returns 403 under a Free-tier User Context token — only App-Only auth supports it. Per-account lookups (`get_users_by_username` + `get_users_posts`) work fine and are the practical way to pull real calibration examples from a specific account's timeline. X Articles (long-form posts) are not readable through the Posts API or a generic web fetch — both hit a paywall/login wall — so reading one requires a logged-in browser session (e.g. `claude-in-chrome`) rather than an API call.
 
 ### 4. Voice analysis is a first-class input
 

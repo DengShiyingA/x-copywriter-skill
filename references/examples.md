@@ -309,3 +309,79 @@ Why it works:
 - The critic gate caught a voice slip (capitalization + summary ending) and forced the fix before delivery, not after.
 - The close invites `P(reply)` honestly — a real question, not engagement bait.
 - The proof is the user's actual week, never inflated.
+
+## Example 9: Account Suspension Appeal (Initial Stage)
+
+User intent:
+
+```text
+My X account was suspended yesterday for "platform manipulation." I don't
+think I did anything wrong except unfollow a batch of accounts. Help me
+appeal, in English.
+```
+
+Good output shape:
+
+```text
+Appeal:
+Dear X Support Team,
+
+I am writing to appeal the suspension of my account, @[handle], which
+I received notice of on [date]. The notice cited platform manipulation.
+
+The only unusual activity on my end around that time was unfollowing a
+number of accounts in a single session while cleaning up who I follow.
+I did not use automation, purchase engagement, or coordinate with other
+accounts.
+
+If this action was mistakenly flagged as manipulation, I would appreciate
+a manual review. I'm glad to slow down any future bulk actions if that
+helps avoid a similar flag.
+
+Thank you for reviewing this.
+
+[handle] / [contact email]
+```
+
+Why it works:
+
+- States only the one verified fact (bulk unfollow) instead of guessing at other causes.
+- Does not admit to manipulation, only offers a plausible innocent explanation.
+- Asks for one concrete outcome: manual review.
+- No fabricated travel story, no manufactured anxiety, no bilingual padding — matches the user's one requested language.
+
+## Example 10: Pre-Enforcement Compliance Self-Audit
+
+User intent:
+
+```text
+Can you check if my last 15 posts put my account at risk before I apply
+for monetization? Here's the export. [pastes 15 posts]
+```
+
+Good output shape:
+
+```text
+Coverage:
+Checked the 15 posts supplied in full text. Did not check replies, DMs,
+media captions, or profile fields — those were not provided, so this is
+a partial picture, not a full account audit.
+
+Overall risk: low — one item worth fixing before applying, nothing else stands out.
+
+Flagged items:
+- Post 7 (undisclosed sponsored link) — confidence: strong suspicion —
+  rule: paid partnership disclosure — recommendation: add a disclosure
+  label or "ad" note before applying for monetization.
+
+Unresolved (need more information):
+- Can't assess engagement-bait risk without seeing whether replies were
+  solicited in comments, since only the original posts were supplied.
+```
+
+Why it works:
+
+- States exactly what was and was not reviewed, so the user cannot mistake a 15-post sample for a full audit.
+- Flags one real, checkable issue with a confidence label and the specific rule, instead of a vague "looks fine."
+- Names what would need more data rather than guessing at it.
+- The fix is "disclose", not "here's how to make it less detectable."
