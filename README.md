@@ -1,10 +1,12 @@
 # X Copywriter
 
+[中文说明](README.zh-CN.md)
+
 An original, multilingual copywriting skill for X/Twitter. It drafts, rewrites, critiques, and plans posts in **any language the user writes in** — single posts, threads, replies, quote tweets, launch copy, founder-voice content, content calendars, long-form repurposing, and anti-AI-tone polishing. It also handles the other side of the account lifecycle: enforcement appeals and pre-emptive compliance self-audits.
 
 The skill applies marketing strategy, audience psychology, evidence discipline, language-specific voice adaptation, and a writer-facing read of public X algorithm signals — without copying external templates or claiming to game the feed.
 
-![How a request is routed](docs/images/x_copywriter_structure_detailed.png)
+![How a request is routed](docs/images/x_copywriter_structure_en.png)
 
 ## What makes it different
 
@@ -23,13 +25,13 @@ The skill applies marketing strategy, audience psychology, evidence discipline, 
 
 Every request is classified first, then routed to one of three tracks — copywriting, appeals, or compliance self-audit — each with its own reference doc:
 
-![Task router: copy, appeals, and compliance self-audit tracks](docs/images/x_copywriter_task_router.png)
+![Task router: copy, appeals, and compliance self-audit tracks](docs/images/x_copywriter_task_router_en.png)
 
 ### Writing loop
 
 Copywriting requests run through a gated pipeline — hook tournament, then a critic gate, then the anti-AI polish pass — before anything is delivered:
 
-![Writing loop: hook tournament, critic gate, anti-AI polish](docs/images/x_copywriter_writing_loop_detailed.png)
+![Writing loop: hook tournament, critic gate, anti-AI polish](docs/images/x_copywriter_writing_loop_en.png)
 
 ## Structure
 
