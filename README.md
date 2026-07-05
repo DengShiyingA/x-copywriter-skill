@@ -4,6 +4,8 @@ An original, multilingual copywriting skill for X/Twitter. It drafts, rewrites, 
 
 The skill applies marketing strategy, audience psychology, evidence discipline, language-specific voice adaptation, and a writer-facing read of public X algorithm signals — without copying external templates or claiming to game the feed.
 
+![How a request is routed](docs/images/x_copywriter_structure_detailed.png)
+
 ## What makes it different
 
 - **Writes for the right action, not just "engagement."** Maps copy to the actions X actually rewards (reply, quote, profile-click-then-stay) and away from the ones it taxes (mute, block, report).
@@ -16,6 +18,18 @@ The skill applies marketing strategy, audience psychology, evidence discipline, 
 - **Evidence discipline.** Never fabricates numbers, testimonials, logos, stories, or platform rules — and never fabricates a reason for an enforcement action either.
 - **X appeals with factual continuity.** Drafts account, post, feature, and monetization review requests in any requested language while checking prior submissions for contradictions and unsupported claims. Refuses circulating "appeal templates" that instruct fabricating an excuse or performing manufactured sincerity.
 - **Pre-enforcement compliance self-audit.** Checks an account or draft posts against X's actual policies before anything is flagged — states what was and wasn't reviewed, grades each finding by confidence instead of guessing, and never recommends evading detection.
+
+### Task routing
+
+Every request is classified first, then routed to one of three tracks — copywriting, appeals, or compliance self-audit — each with its own reference doc:
+
+![Task router: copy, appeals, and compliance self-audit tracks](docs/images/x_copywriter_task_router.png)
+
+### Writing loop
+
+Copywriting requests run through a gated pipeline — hook tournament, then a critic gate, then the anti-AI polish pass — before anything is delivered:
+
+![Writing loop: hook tournament, critic gate, anti-AI polish](docs/images/x_copywriter_writing_loop_detailed.png)
 
 ## Structure
 
