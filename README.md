@@ -17,6 +17,8 @@
 [![Last Commit](https://img.shields.io/github/last-commit/DengShiyingA/x-copywriter-skill?style=flat-square&label=last%20commit)](https://github.com/DengShiyingA/x-copywriter-skill/commits/main)
 [![Issues](https://img.shields.io/github/issues/DengShiyingA/x-copywriter-skill?style=flat-square&label=issues)](https://github.com/DengShiyingA/x-copywriter-skill/issues)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=Hook+tournament%2C+never+the+first+draft.;Critic+gate+before+you+ever+see+it.;Appeals+that+never+invent+an+excuse.;Compliance+audits+graded+by+confidence.)](#what-makes-it-different)
+
 </div>
 
 ---
@@ -28,6 +30,19 @@ Ask a generic model for copy and it can't stop saying "unlock," "game-changing,"
 General-purpose models never learned X's actual writing physics — their training data has no hook tournament, no critic gate, and no respect for the negative-feedback signals that get a post reported or muted. This skill compresses marketing psychology, a writer-facing read of X's public algorithm, anti-AI-tone editing, and appeal-drafting discipline into one routable copy / appeals / compliance system, in any language, with no privileged pair.
 
 **One `SKILL.md` plus 9 reference docs, routed automatically to the right output contract.** Once installed, the AI drafts like a writer who actually reads X's ranking signals, knows appeal evidence discipline, and never mistakes "let's dive in" for an opening line.
+
+| | Generic AI | This skill |
+|---|---|---|
+| Tweet opener | "In today's fast-paced world, founders need..." | "Most founders don't have a customer interview problem. They have a synthesis problem." |
+| Suspension appeal | "Recent travel and network changes may have triggered this restriction..." | States only verified facts, labels beliefs as uncertainty, never invents an excuse |
+| Chinese copy | "在当今快速发展的时代,我们致力于赋能创作者,打造增长闭环" | "大家都在发日更,真正的问题是:你想让读者记住你什么?" |
+| Compliance check | "Looks fine, should be safe to post!" | States exactly what was and wasn't reviewed, grades each finding by confidence |
+
+> [!TIP]
+> Every draft passes a skeptical **critic gate** (hook, one idea, proof, action fit, voice) before delivery — weak dimensions get rewritten, not shipped with a caveat.
+
+> [!WARNING]
+> The appeals workflow will **refuse** circulating templates that instruct fabricating an excuse (e.g. "recent travel / network change") or performing manufactured sincerity — see [x-appeals.md](references/x-appeals.md).
 
 <div align="center">
 
@@ -64,6 +79,9 @@ Copywriting requests run through a gated pipeline — hook tournament, then a cr
 
 ## Structure
 
+<details>
+<summary>Click to expand the file tree (9 reference docs)</summary>
+
 ```
 SKILL.md                          # entry point: rules, task router, strategy card, writing loop, output contracts
 references/
@@ -78,6 +96,8 @@ references/
   examples.md                     # calibrated examples, including the internal tournament + critic-gate flow
 agents/claude.yaml                # interface metadata
 ```
+
+</details>
 
 ## Installation
 
