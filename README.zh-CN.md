@@ -1,10 +1,39 @@
-# X Copywriter
+<div align="center">
+
+# 🖋️ X Copywriter
 
 [English README](README.md)
 
-一个原创的多语言 X/Twitter 文案技能。它能起草、改写、批评、规划任何语言的推文——单条推文、长推、回复、引用推文、发布文案、创始人IP内容、内容日历、长文改写、以及反AI味润色。它也覆盖账号生命周期的另一面:执法申诉和事前合规自查。
+**原创多语言 X/Twitter 文案技能 · 让 AI 写出不像 AI 写的推文**
 
-这个技能应用了营销策略、受众心理学、证据纪律、分语言的语音适配,以及一份面向创作者的公开 X 算法信号解读——不照搬外部模板,也不承诺能"操纵"信息流。
+*9 份参考文档 · 文案 / 申诉 / 合规自查三线路由 · 语言中立,中英只是示例*
+
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue?style=flat-square)](https://claude.com/claude-code)
+[![Languages](https://img.shields.io/badge/Languages-Any-green?style=flat-square)](references/language-adaptation.md)
+[![Appeals](https://img.shields.io/badge/X%20Appeals-Multilingual-teal?style=flat-square)](references/x-appeals.md)
+
+[![Stars](https://img.shields.io/github/stars/DengShiyingA/x-copywriter-skill?style=flat-square&label=Stars)](https://github.com/DengShiyingA/x-copywriter-skill/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/DengShiyingA/x-copywriter-skill?style=flat-square&label=last%20commit)](https://github.com/DengShiyingA/x-copywriter-skill/commits/main)
+[![Issues](https://img.shields.io/github/issues/DengShiyingA/x-copywriter-skill?style=flat-square&label=issues)](https://github.com/DengShiyingA/x-copywriter-skill/issues)
+
+</div>
+
+---
+
+**问 ChatGPT 写条推文,它给你一段"在当今快节奏的时代"?
+让某个 AI 写申诉信,它编了个"最近出差网络环境变化"的借口?
+问随便哪个通用模型写中文文案,它满嘴"赋能""闭环""抓手""认知升级"?**
+
+通用大模型从来没系统学过 X 这个平台的写作规律——它们的训练数据里没有钩子锦标赛、没有 Critic Gate、也不懂什么会触发举报/拉黑这种负反馈信号。所以这个技能把营销心理学、X 公开算法解读、反AI味润色方法、申诉纪律,浓缩成一套可路由的写作 + 申诉 + 合规体系,覆盖任意语言,不偏向中英任何一边。
+
+**一份 `SKILL.md` + 9 份参考文档,自动路由到三种任务契约。** 装上之后,AI 会像懂 X 算法、懂申诉证据纪律、懂"说人话"的写手一样交付草稿——而不是把 "in today's fast-paced world" 或"赋能增长"当成合格的开头。
+
+<div align="center">
+
+🚀 [安装](#安装) · ✍️ [有什么不一样](#有什么不一样) · 🗂️ [结构](#结构) · ⚖️ [申诉与合规自查](references/x-appeals.md)
+
+</div>
 
 ![请求如何被路由](docs/images/x_copywriter_structure_detailed.png)
 

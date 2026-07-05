@@ -1,10 +1,39 @@
-# X Copywriter
+<div align="center">
+
+# 🖋️ X Copywriter
 
 [中文说明](README.zh-CN.md)
 
-An original, multilingual copywriting skill for X/Twitter. It drafts, rewrites, critiques, and plans posts in **any language the user writes in** — single posts, threads, replies, quote tweets, launch copy, founder-voice content, content calendars, long-form repurposing, and anti-AI-tone polishing. It also handles the other side of the account lifecycle: enforcement appeals and pre-emptive compliance self-audits.
+**An original, multilingual X/Twitter copywriting skill — AI copy that doesn't read like AI copy**
 
-The skill applies marketing strategy, audience psychology, evidence discipline, language-specific voice adaptation, and a writer-facing read of public X algorithm signals — without copying external templates or claiming to game the feed.
+*9 reference docs · copy / appeals / compliance-audit routing · language-neutral by design*
+
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue?style=flat-square)](https://claude.com/claude-code)
+[![Languages](https://img.shields.io/badge/Languages-Any-green?style=flat-square)](references/language-adaptation.md)
+[![Appeals](https://img.shields.io/badge/X%20Appeals-Multilingual-teal?style=flat-square)](references/x-appeals.md)
+
+[![Stars](https://img.shields.io/github/stars/DengShiyingA/x-copywriter-skill?style=flat-square&label=Stars)](https://github.com/DengShiyingA/x-copywriter-skill/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/DengShiyingA/x-copywriter-skill?style=flat-square&label=last%20commit)](https://github.com/DengShiyingA/x-copywriter-skill/commits/main)
+[![Issues](https://img.shields.io/github/issues/DengShiyingA/x-copywriter-skill?style=flat-square&label=issues)](https://github.com/DengShiyingA/x-copywriter-skill/issues)
+
+</div>
+
+---
+
+**Ask ChatGPT for a tweet and it hands you "In today's fast-paced world"?
+Ask an AI to draft an appeal and it invents "recent travel disrupted my network"?
+Ask a generic model for copy and it can't stop saying "unlock," "game-changing," "seamless"?**
+
+General-purpose models never learned X's actual writing physics — their training data has no hook tournament, no critic gate, and no respect for the negative-feedback signals that get a post reported or muted. This skill compresses marketing psychology, a writer-facing read of X's public algorithm, anti-AI-tone editing, and appeal-drafting discipline into one routable copy / appeals / compliance system, in any language, with no privileged pair.
+
+**One `SKILL.md` plus 9 reference docs, routed automatically to the right output contract.** Once installed, the AI drafts like a writer who actually reads X's ranking signals, knows appeal evidence discipline, and never mistakes "let's dive in" for an opening line.
+
+<div align="center">
+
+🚀 [Installation](#installation) · ✍️ [What makes it different](#what-makes-it-different) · 🗂️ [Structure](#structure) · ⚖️ [Appeals & compliance](references/x-appeals.md)
+
+</div>
 
 ![How a request is routed](docs/images/x_copywriter_structure_en.png)
 
