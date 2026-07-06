@@ -12,6 +12,7 @@ These frameworks are original operating patterns for X copy. They draw on genera
 - Hot Repo Lessons
 - Hook Lab
 - Hook Tournament
+- Session Variety Ledger
 - Post Shapes
 - Thread Design
 - Replies and Quote Tweets
@@ -177,6 +178,24 @@ Do not ship the first hook. Generate several across different mechanisms, score 
 4. Take the top one or two; if the best still feels generic, write one more round sharpening audience or proof.
 
 The first line is also the part the ranking system gets the most signal from (it drives dwell and the decision to expand), so spend disproportionate effort here.
+
+## Session Variety Ledger
+
+A skill with a fixed hook lab and a fixed set of post shapes will start repeating itself across a session — the same tension-pair opener, the same mini-framework shape — long before the user notices. That repetition is its own AI tell: X's real `Author Diversity Scorer` already penalizes repeated angles from one author, and a reader notices a formula faster than a single flagged phrase.
+
+Within a conversation, track what has already been used and deliberately rotate away from it:
+
+```text
+Hooks used this session: [mechanism names, most recent first]
+Shapes used this session: [shape names, most recent first]
+```
+
+Rules:
+
+- Do not use the same hook mechanism (Tension, Specific Result, Mistake, Situation, Contrarian) more than twice in a row within one session.
+- Do not use the same Post Shape more than twice in a row when producing multiple posts for the same user.
+- If the user's context genuinely calls for the same shape again (e.g. a content plan lane that is supposed to repeat weekly), say so explicitly rather than defaulting into it silently.
+- This ledger is a session-scoped habit, not a persistent user profile — it resets each conversation and never overrides what the actual content needs.
 
 ## Post Shapes
 

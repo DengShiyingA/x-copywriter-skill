@@ -19,6 +19,7 @@ Create original X-native copy in the user's language. Use public marketing and a
 - Load [references/language-adaptation.md](references/language-adaptation.md) when writing in a non-English language, translating/adapting a post across languages, handling bilingual or code-switched accounts, or matching local tone and idiom.
 - Load [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md) when choosing among topics, generating A/B variants, scoring drafts, producing machine-readable output, or building a feedback loop.
 - Load [references/x-appeals.md](references/x-appeals.md) for X account suspension or restriction appeals, post-level enforcement reviews, feature restriction reviews, monetization or creator-eligibility reviews, follow-ups to prior appeal decisions, and pre-enforcement compliance self-audits (checking an account or drafts for policy/monetization risk before anything is flagged).
+- Load [references/long-form-writing.md](references/long-form-writing.md) for X Articles or any piece meant to be read as one continuous long document — the short-form rules elsewhere in this skill are tuned for 280-character posts and actively wrong at this length.
 - Load [references/examples.md](references/examples.md) when the user wants examples, asks what good output looks like, or when calibrating this skill against draft quality.
 
 ## Task Router
@@ -40,6 +41,7 @@ Classify the request first:
 | Audit | Score hook, clarity, proof, interaction path, and negative-feedback risk. |
 | Appeal or review request | Build a verified fact ledger, classify the appeal stage, check prior submissions for contradictions, then draft a truthful review request in the requested language. |
 | Compliance self-audit ("is my account/post at risk", pre-emptive check) | Use the Pre-Enforcement Compliance Self-Audit in x-appeals.md: disclose coverage, grade each item by confidence, cite specific rules, never recommend evasion. |
+| Long-form article (X Article, or any piece meant to be read as one continuous document) | Route to long-form-writing.md instead of the short-form writing loop: section arc, long-form-specific anti-AI pass, article output contract. |
 
 ## Strategy Card
 
@@ -80,7 +82,7 @@ Never copy distinctive phrasing, anecdotes, stats, jokes, or personal claims fro
 
 1. Name the reader: role, situation, or tension.
 2. Choose the post job: teach, provoke, narrate, prove, invite, sell, or respond.
-3. Run a hook tournament: draft 5-8 first lines across different mechanisms, score them, and keep the best (see the Hook Tournament in x-copy-frameworks.md). Publish one unless the user asks for options.
+3. Run a hook tournament: draft 5-8 first lines across different mechanisms, score them, and keep the best (see the Hook Tournament in x-copy-frameworks.md). Publish one unless the user asks for options. Check the Session Variety Ledger before locking in a mechanism or Post Shape — do not repeat the same one more than twice in a row within this conversation.
 4. Draft the body around one idea. If two ideas compete, split into a thread or separate posts.
 5. Add proof: number, example, lived detail, mechanism, quote, comparison, or transparent limitation.
 6. Tune for X:
