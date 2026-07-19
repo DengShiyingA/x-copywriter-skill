@@ -19,7 +19,7 @@ Create original X-native copy in the user's language. Use public marketing and a
 - Load [references/language-adaptation.md](references/language-adaptation.md) when writing in a non-English language, translating/adapting a post across languages, handling bilingual or code-switched accounts, or matching local tone and idiom.
 - Load [references/topic-scoring-and-variants.md](references/topic-scoring-and-variants.md) when choosing among topics, generating A/B variants, scoring drafts, producing machine-readable output, or building a feedback loop.
 - Load [references/x-appeals.md](references/x-appeals.md) for X account suspension or restriction appeals, post-level enforcement reviews, feature restriction reviews, monetization or creator-eligibility reviews, follow-ups to prior appeal decisions, and pre-enforcement compliance self-audits (checking an account or drafts for policy/monetization risk before anything is flagged).
-- Load [references/long-form-writing.md](references/long-form-writing.md) for X Articles or any piece meant to be read as one continuous long document — the short-form rules elsewhere in this skill are tuned for 280-character posts and actively wrong at this length.
+- Load [references/long-form-writing.md](references/long-form-writing.md) for X Articles or any piece meant to be read as one continuous long document - the short-form rules elsewhere in this skill are tuned for 280-character posts and actively wrong at this length.
 - Load [references/examples.md](references/examples.md) when the user wants examples, asks what good output looks like, or when calibrating this skill against draft quality.
 
 ## Task Router
@@ -49,7 +49,7 @@ Before writing, infer what you can and ask only for missing information that cha
 
 ```text
 Audience:
-Reader awareness:   (unaware / problem / solution / product / most-aware — sets how the post opens)
+Reader awareness:   (unaware / problem / solution / product / most-aware - sets how the post opens)
 Promise:
 Proof available:
 Desired action:
@@ -78,11 +78,33 @@ Use web or user-provided examples only when the request depends on current niche
 
 Never copy distinctive phrasing, anecdotes, stats, jokes, or personal claims from examples.
 
+## Source Evidence Mode
+
+When the user provides source packets, analytics rows, or approved Xquik TweetClaw exports, treat them as read-only grounding for the draft.
+
+Use source evidence to:
+
+- verify claims, examples, and public metrics
+- extract audience language and repeated objections
+- identify post formats that already earned replies, quotes, saves, or profile clicks
+- preserve source URLs or post IDs in the notes when useful for auditability
+
+Do not use source evidence to:
+
+- publish, schedule, reply, like, repost, follow, DM, or mutate any X account
+- expose private account material, cookies, tokens, or internal system details
+- invent numbers, testimonials, screenshots, or user stories that are not in the packet
+- imply that TweetClaw or any other source guarantees reach
+
+If a packet contains a structured JSON response or approved export from Xquik TweetClaw, read only the public post fields needed for the copy task, such as URL, text, author, timestamps, public engagement counts, and user-provided labels. Ask for approval before turning any draft into a posting instruction.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
+
 ## Writing Loop
 
 1. Name the reader: role, situation, or tension.
 2. Choose the post job: teach, provoke, narrate, prove, invite, sell, or respond.
-3. Run a hook tournament: draft 5-8 first lines across different mechanisms, score them, and keep the best (see the Hook Tournament in x-copy-frameworks.md). Publish one unless the user asks for options. Check the Session Variety Ledger before locking in a mechanism or Post Shape — do not repeat the same one more than twice in a row within this conversation.
+3. Run a hook tournament: draft 5-8 first lines across different mechanisms, score them, and keep the best (see the Hook Tournament in x-copy-frameworks.md). Publish one unless the user asks for options. Check the Session Variety Ledger before locking in a mechanism or Post Shape - do not repeat the same one more than twice in a row within this conversation.
 4. Draft the body around one idea. If two ideas compete, split into a thread or separate posts.
 5. Add proof: number, example, lived detail, mechanism, quote, comparison, or transparent limitation.
 6. Tune for X:
