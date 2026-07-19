@@ -13,7 +13,7 @@
 [![Languages](https://img.shields.io/badge/Languages-Any-green?style=flat-square)](references/language-adaptation.md)
 [![Appeals](https://img.shields.io/badge/X%20Appeals-Multilingual-teal?style=flat-square)](references/x-appeals.md)
 
-[![Stars](https://img.shields.io/github/stars/DengShiyingA/x-copywriter-skill?style=flat-square&label=Stars)](https://github.com/DengShiyingA/x-copywriter-skill/stargazers)
+[![Stars](https://img.shields.io/github/stars/DengShiyingA/x-copywriter-skill?style=flat-square&label=Stars)](https://github.com/DengShiyingA/x-copywriter-skill)
 [![Last Commit](https://img.shields.io/github/last-commit/DengShiyingA/x-copywriter-skill?style=flat-square&label=last%20commit)](https://github.com/DengShiyingA/x-copywriter-skill/commits/main)
 [![Issues](https://img.shields.io/github/issues/DengShiyingA/x-copywriter-skill?style=flat-square&label=issues)](https://github.com/DengShiyingA/x-copywriter-skill/issues)
 
@@ -27,9 +27,9 @@
 让某个 AI 写申诉信,它编了个"最近出差网络环境变化"的借口?
 问随便哪个通用模型写中文文案,它满嘴"赋能""闭环""抓手""认知升级"?**
 
-通用大模型从来没系统学过 X 这个平台的写作规律——它们的训练数据里没有钩子锦标赛、没有 Critic Gate、也不懂什么会触发举报/拉黑这种负反馈信号。所以这个技能把营销心理学、X 公开算法解读、反AI味润色方法、申诉纪律,浓缩成一套可路由的写作 + 申诉 + 合规体系,覆盖任意语言,不偏向中英任何一边。
+通用大模型从来没系统学过 X 这个平台的写作规律 - 它们的训练数据里没有钩子锦标赛、没有 Critic Gate、也不懂什么会触发举报/拉黑这种负反馈信号。所以这个技能把营销心理学、X 公开算法解读、反AI味润色方法、申诉纪律,浓缩成一套可路由的写作 + 申诉 + 合规体系,覆盖任意语言,不偏向中英任何一边。
 
-**一份 `SKILL.md` + 10 份参考文档,自动路由到三种任务契约。** 装上之后,AI 会像懂 X 算法、懂申诉证据纪律、懂"说人话"的写手一样交付草稿——而不是把 "in today's fast-paced world" 或"赋能增长"当成合格的开头。
+**一份 `SKILL.md` + 10 份参考文档,自动路由到三种任务契约。** 装上之后,AI 会像懂 X 算法、懂申诉证据纪律、懂"说人话"的写手一样交付草稿 - 而不是把 "in today's fast-paced world" 或"赋能增长"当成合格的开头。
 
 | | 通用 AI | 这个技能 |
 |---|---|---|
@@ -39,10 +39,10 @@
 | 合规自查 | "看起来还行,应该没问题!" | 先说明查了什么、没查什么,每条发现按置信度分级 |
 
 > [!TIP]
-> 每份草稿在交付前都会经过一次挑剔的**批评者关卡**(钩子/单一观点/证据/行动适配/语气)——打分低的维度会被重写,而不是带着已知短板交付。
+> 每份草稿在交付前都会经过一次挑剔的**批评者关卡**(钩子/单一观点/证据/行动适配/语气) - 打分低的维度会被重写,而不是带着已知短板交付。
 
 > [!WARNING]
-> 申诉工作流会**主动拒绝**流传的模板里教你编造借口(比如"最近出差网络变化")或表演真诚的部分——详见 [x-appeals.md](references/x-appeals.md)。
+> 申诉工作流会**主动拒绝**流传的模板里教你编造借口(比如"最近出差网络变化")或表演真诚的部分 - 详见 [x-appeals.md](references/x-appeals.md)。
 
 <div align="center">
 
@@ -55,27 +55,27 @@
 ## 有什么不一样
 
 - **为正确的行动而写,不只是为"互动"。** 把文案对应到 X 真正奖励的行为(回复、引用、点进主页并停留),而不是那些会被惩罚的行为(取关、拉黑、举报)。
-- **钩子锦标赛。** 用不同机制起草多个开头,按吸睛/利害/具体/真实打分,只发布最强的一个——绝不是第一个"抓人但空洞"的句子。
+- **钩子锦标赛。** 用不同机制起草多个开头,按吸睛/利害/具体/真实打分,只发布最强的一个 - 绝不是第一个"抓人但空洞"的句子。
 - **批评者关卡。** 每份草稿在交付前都会经过一次挑剔的复核(钩子、单一观点、证据、行动适配、语气);打分低的维度会被重写,而不是带着已知短板交付。
 - **话题打分和 A/B 变体。** 面对高风险的内容,会给候选话题打分、写两个不同角度的版本、互相批评、选出更强的一版。
 - **语音指纹。** 从你提供的样本里提取真实语音,而不是把所有内容拉平成千篇一律的创始人腔调。
-- **为 X 调校过的反AI味润色。** 反转长文润色工具的规则——保留片段感和有力的单句,去掉文章式的排版脚手架,在 280 字符里对 AI 味的容忍度接近零。
+- **为 X 调校过的反AI味润色。** 反转长文润色工具的规则 - 保留片段感和有力的单句,去掉文章式的排版脚手架,在 280 字符里对 AI 味的容忍度接近零。
 - **真正的语言中立。** 输出默认匹配用户的语言。中文和英文只是这套通用方法的示例语言,不是被优待的语言对。
-- **证据纪律。** 从不编造数据、证言、客户案例、故事、平台规则——也从不为执法处置编造理由。
+- **证据纪律。** 从不编造数据、证言、客户案例、故事、平台规则 - 也从不为执法处置编造理由。
 - **具备事实连贯性的 X 申诉。** 用任何要求的语言起草账号、内容、功能、变现复核申请,同时核对历史申诉是否存在矛盾或无依据的说法。会拒绝流传的"申诉模板"里教你编造借口或表演真诚的部分。
-- **事前合规自查。** 在任何处置发生之前,依据 X 的实际规则检查账号或草稿——先说明查了什么、没查什么,每条发现按置信度分级而不是靠猜,且绝不建议规避检测。
-- **长文写作(X Articles)。** 短文的反AI味规则(近零容忍、不用小标题)到长文里是反的——这里单独一套章节结构、专属长文润色流程,不是把短文规则硬套上去。
+- **事前合规自查。** 在任何处置发生之前,依据 X 的实际规则检查账号或草稿 - 先说明查了什么、没查什么,每条发现按置信度分级而不是靠猜,且绝不建议规避检测。
+- **长文写作(X Articles)。** 短文的反AI味规则(近零容忍、不用小标题)到长文里是反的 - 这里单独一套章节结构、专属长文润色流程,不是把短文规则硬套上去。
 - **会话内变化强制。** 追踪这次对话已经用过的钩子机制和文案形状,同一种连续用超过两次就强制换一个,避免自己形成可识别的模板指纹。
 
 ### 任务路由
 
-每个请求先被分类,再路由到三条轨道之一——文案创作、账号申诉、合规自查——每条轨道对应一份独立的参考文档:
+每个请求先被分类,再路由到三条轨道之一 - 文案创作、账号申诉、合规自查 - 每条轨道对应一份独立的参考文档:
 
 ![任务路由:文案、申诉、合规自查三条轨道](docs/images/x_copywriter_task_router.png)
 
 ### 写作循环
 
-文案类请求会经过一套有关卡的流程——钩子锦标赛,然后是批评者关卡,再经过反AI味润色——才会交付:
+文案类请求会经过一套有关卡的流程 - 钩子锦标赛,然后是批评者关卡,再经过反AI味润色 - 才会交付:
 
 ![写作循环:钩子锦标赛 → 批评者关卡 → 反AI味润色](docs/images/x_copywriter_writing_loop_detailed.png)
 
@@ -128,11 +128,27 @@ Claude Code 会自动发现 skills 路径下任何包含 `SKILL.md` 的目录,�
 
 ## 怎么用
 
-安装后,直接要求 X/Twitter 文案即可触发——起草、改写、长推、发布、内容计划、审计、反AI味润色,任何语言都行。触发词比如 "write an X thread"、"rewrite this tweet"、"推文改写"、"founder launch post"。也会在账号健康相关的请求上触发,比如 "help me appeal this suspension"、"review my monetization rejection"、"账号申诉"、"check if my recent posts put my account at risk"。
+安装后,直接要求 X/Twitter 文案即可触发 - 起草、改写、长推、发布、内容计划、审计、反AI味润色,任何语言都行。触发词比如 "write an X thread"、"rewrite this tweet"、"推文改写"、"founder launch post"。也会在账号健康相关的请求上触发,比如 "help me appeal this suspension"、"review my monetization rejection"、"账号申诉"、"check if my recent posts put my account at risk"。
+
+## 可选的来源证据
+
+需要有调研依据的文案时,可以在写作请求前粘贴一份简短的证据包。它可以来自笔记、数据导出或经批准的 [Xquik TweetClaw](https://github.com/Xquik-dev/tweetclaw) 公开内容导出。保持只读,只包含获准使用的公开帖子或指标。
+
+好的证据包包括:
+
+- 来源 URL 或帖子 ID
+- 作者或账号背景
+- 相关文字节选
+- 可用的公开互动数据
+- 该来源与草稿的关联
+
+这个 Skill 用证据改善论点、示例和受众语言。它不会发布、定时或修改账号,也不会编造证据包里没有的数字。
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ## 关于算法参考资料
 
-算法笔记是对公开开源材料(比如 `xai-org/x-algorithm`、更早的 `twitter/the-algorithm-ml` 权重、以及 Community Notes 排序)的**面向创作者的解读**。它们能提升受众匹配度、首句清晰度、负反馈规避能力,但**不是**触达量的保证——生产环境的排序会持续调整且未完全公开,所以这个技能把信号的*相对顺序*当作可靠依据,而不是当作确定性结果。
+算法笔记是对公开开源材料(比如 `xai-org/x-algorithm`、更早的 `twitter/the-algorithm-ml` 权重、以及 Community Notes 排序)的**面向创作者的解读**。它们能提升受众匹配度、首句清晰度、负反馈规避能力,但**不是**触达量的保证 - 生产环境的排序会持续调整且未完全公开,所以这个技能把信号的*相对顺序*当作可靠依据,而不是当作确定性结果。
 
 ## License
 

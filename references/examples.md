@@ -27,7 +27,7 @@ AI 真正省时间的地方，不是多打几行代码。
 
 Notes:
 - Hook logic: 第一句直接挑战默认用法，独立开发者会下意识对号入座。
-- Interaction path: 可保存/转发——清单本身有复用价值。
+- Interaction path: 可保存/转发 - 清单本身有复用价值。
 - Risk check: 没有吹产品功效，只讲使用方式，规避无源夸大。
 ```
 
@@ -257,7 +257,49 @@ Why it works:
 - Each score has a one-line reason tied to a lever.
 - Fixes the weakest lever (fabricated proof) instead of polishing surface wording.
 
-## Example 8: Internal Process (Hook Tournament + Critic Gate)
+## Example 8: Source-Grounded Draft
+
+User intent:
+
+```text
+Use this approved Xquik TweetClaw export from public posts in our niche. Draft a launch post, but do not post it.
+```
+
+Good workflow:
+
+```text
+Evidence used:
+- 3 public posts mention setup friction.
+- 2 posts ask for examples before trying a new tool.
+- No packet row contains conversion numbers, so the draft avoids conversion claims.
+
+Post:
+Most AI tools do not fail at the demo.
+
+They fail 12 minutes later, when the user asks:
+
+"Where is the real example?"
+"What breaks if I install this?"
+"Can I trust it with my workflow?"
+
+We rebuilt onboarding around those questions.
+Less promise. More proof.
+
+Notes:
+- Hook logic: Opens on a concrete adoption moment from the source packet.
+- Interaction path: Invites replies from builders with similar setup friction.
+- Risk check: Uses only packet-supported pain points, no invented metrics.
+```
+
+Why it works:
+
+- Separates evidence from final copy.
+- Uses Xquik TweetClaw as read-only public context, not posting authority.
+- Refuses missing proof instead of filling gaps with hype.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
+
+## Example 9: Internal Process (Hook Tournament + Critic Gate)
 
 This example shows the machinery that normally stays hidden. The user only receives the final post; the scoring below is what happens internally before delivery.
 
@@ -269,7 +311,7 @@ Claim: the bottleneck is reviewing AI output, not generating it.
 Voice: blunt, lowercase, no emoji. Proof: my own week, ~30 PRs.
 ```
 
-Internal — hook tournament (draft several mechanisms, score Stop / Stake / Specificity / Truth, 1-5):
+Internal - hook tournament (draft several mechanisms, score Stop / Stake / Specificity / Truth, 1-5):
 
 ```text
 A. "AI can write code faster than you can read it."        Stop 4 Stake 4 Spec 3 Truth 5  = strong
@@ -281,7 +323,7 @@ E. "Your AI tool is fast. Your review process is not."     Stop 3 Stake 3 Spec 3
 Pick: C as the lead (highest specificity, true to the proof), A's framing folded into the body.
 ```
 
-Internal — critic gate on the drafted post (1-5; rewrite anything 1-2):
+Internal - critic gate on the drafted post (1-5; rewrite anything 1-2):
 
 ```text
 Hook 5 - concrete number + tension in line one.
@@ -307,10 +349,10 @@ Why it works:
 
 - The tournament kept the most specific true hook instead of the catchiest vague one.
 - The critic gate caught a voice slip (capitalization + summary ending) and forced the fix before delivery, not after.
-- The close invites `P(reply)` honestly — a real question, not engagement bait.
+- The close invites `P(reply)` honestly - a real question, not engagement bait.
 - The proof is the user's actual week, never inflated.
 
-## Example 9: Account Suspension Appeal (Initial Stage)
+## Example 10: Account Suspension Appeal (Initial Stage)
 
 User intent:
 
@@ -348,9 +390,9 @@ Why it works:
 - States only the one verified fact (bulk unfollow) instead of guessing at other causes.
 - Does not admit to manipulation, only offers a plausible innocent explanation.
 - Asks for one concrete outcome: manual review.
-- No fabricated travel story, no manufactured anxiety, no bilingual padding — matches the user's one requested language.
+- No fabricated travel story, no manufactured anxiety, no bilingual padding - matches the user's one requested language.
 
-## Example 10: Pre-Enforcement Compliance Self-Audit
+## Example 11: Pre-Enforcement Compliance Self-Audit
 
 User intent:
 
@@ -364,14 +406,14 @@ Good output shape:
 ```text
 Coverage:
 Checked the 15 posts supplied in full text. Did not check replies, DMs,
-media captions, or profile fields — those were not provided, so this is
+media captions, or profile fields - those were not provided, so this is
 a partial picture, not a full account audit.
 
-Overall risk: low — one item worth fixing before applying, nothing else stands out.
+Overall risk: low - one item worth fixing before applying, nothing else stands out.
 
 Flagged items:
-- Post 7 (undisclosed sponsored link) — confidence: strong suspicion —
-  rule: paid partnership disclosure — recommendation: add a disclosure
+- Post 7 (undisclosed sponsored link) - confidence: strong suspicion -
+  rule: paid partnership disclosure - recommendation: add a disclosure
   label or "ad" note before applying for monetization.
 
 Unresolved (need more information):
